@@ -6,6 +6,11 @@ library(gtools)  ## for testing validity
 
 setwd("C:/Users/tknee/Desktop/MiningProject") ## set working directory
 data <- read.csv("TelcomNorm.csv", header = TRUE, stringsAsFactors = FALSE, sep=",")  ## import csv
+datasub <- slice(data,251:502)
+datasub$Date <- as.Date(datasub$Date,format = "%m/%d/%Y")
+dataVZ <- read.csv("Telcom.csv", header = TRUE, stringsAsFactors = FALSE, sep=",")  ## import csv
+dataVZsub <- slice(dataVZ,253:504)
+dataVZsub$Date <- as.Date(dataVZsub$Date,format = "%m/%d/%Y")
 #drop index column, store as new dataframe
 data2 = select(data,-X, -Date)
 
@@ -29,4 +34,22 @@ ggplot(data=data2, aes(data2$VZ)) +
   scale_y_continuous(breaks=c(0,25,50,75,100,125,150), labels=c("0","25","50","75","100","125","150"))+
   theme(axis.text=element_text(size=12),axis.title=element_text(size=18,face="bold"))+
   theme(plot.title = element_text(size=22,face="bold"))
-#q <- ggplot(data2,aes(data2$CMCSA))+geom_histogram(col="red",fill="blue",binwidth=.5)
+
+# stock chart ;  lognorm data
+ggplot(datasub,aes(Date,VZ,group=1)) + 
+  geom_line(color="blue",size=1.1) + ggtitle("Daily price Change: Verizon")+
+  labs(x="Date", y= "Daily Price Change (lognorm)")+
+  scale_x_date(date_breaks = "months" , date_labels = "%b-%y")+
+  scale_y_continuous(breaks = pretty(datasub$VZ, n = 6))+
+  theme(plot.title = element_text(lineheight=2.0, size=32, face="bold",hjust=.5))+
+  theme(axis.text=element_text(size=16,face="bold"),axis.title=element_text(size=20,face="bold"), axis.ticks=element_blank())
+
+# line chart, Verizon price
+ggplot(dataVZsub,aes(Date,VZ,group=1.1)) + 
+  geom_line(color="blue",size=1.2)+ ggtitle("Closing Price: Verizon")+
+  labs(x="Date", y= "Daily Price Change")+
+  scale_x_date(date_breaks = "months" , date_labels = "%b-%y")+
+  scale_y_continuous(breaks = pretty(dataVZsub$VZ, n = 6))+
+  theme(plot.title = element_text(lineheight=2.0, size=32, face="bold",hjust=0.5))+
+  theme(axis.text=element_text(size=16,face="bold"),axis.title=element_text(size=20,face="bold"))
+  
