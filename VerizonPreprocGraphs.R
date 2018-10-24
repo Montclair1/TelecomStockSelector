@@ -1,5 +1,5 @@
 library(ggplot2) #for graphics
-#set file directory
+#set the csv file directory
 setwd("/Users/mymac/Desktop/DataMiningProject/TelecomStockSelector")
 
 #read the data from a csv file and store it to a data frame
