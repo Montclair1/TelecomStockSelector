@@ -1,0 +1,47 @@
+,PriceChange,EPS,DebtToEquity,CurrentRatio
+1,Price=Positive,EPS=Grade D,DE=Low Risk,CR=Low
+2,Price=Very Positive,EPS=Grade D,DE=Low Risk,CR=Low
+3,Price=Very Positive,EPS=Grade D,DE=Low Risk,CR=Low
+4,Price=Negative,EPS=Grade D,DE=Low Risk,CR=Low
+5,Price=Extremely Negative,EPS=Grade D,DE=Risky,CR=Low
+6,Price=Negative,EPS=Grade D,DE=Risky,CR=Low
+7,Price=Very Negative,EPS=Grade D,DE=Risky,CR=Low
+8,Price=Very Positive,EPS=Grade D,DE=Low Risk,CR=Acceptable
+9,Price=Very Negative,EPS=Grade D,DE=Risky,CR=Low
+10,Price=Positive,EPS=Grade D,DE=Risky,CR=Low
+11,Price=Positive,EPS=Grade D,DE=Risky,CR=Low
+12,Price=Very Positive,EPS=Grade E,DE=Risky,CR=Low
+13,Price=Negative,EPS=Grade E,DE=Risky,CR=Low
+14,Price=Very Negative,EPS=Grade E,DE=Low Risk,CR=Low
+15,Price=Extremely Positive,EPS=Grade E,DE=Low Risk,CR=Low
+16,Price=Very Positive,EPS=Grade E,DE=Low Risk,CR=Low
+17,Price=Very Positive,EPS=Grade D,DE=Low Risk,CR=Low
+18,Price=Negative,EPS=Grade D,DE=Low Risk,CR=Low
+19,Price=Positive,EPS=Grade D,DE=Low Risk,CR=Low
+20,Price=Very Positive,EPS=Grade E,DE=Low Risk,CR=Acceptable
+21,Price=Negative,EPS=Grade E,DE=Low Risk,CR=Acceptable
+22,Price=Extremely Positive,EPS=Grade E,DE=Low Risk,CR=Acceptable
+23,Price=Positive,EPS=Grade E,DE=Low Risk,CR=Low
+24,Price=Negative,EPS=Grade E,DE=Low Risk,CR=Low
+25,Price=Extremely Positive,EPS=Grade E,DE=Low Risk,CR=Low
+26,Price=Positive,EPS=Grade E,DE=Low Risk,CR=Low
+27,Price=Very Negative,EPS=Grade E,DE=Very Risky,CR=Very Good
+28,Price=Very Positive,EPS=Grade C,DE=Very Risky,CR=Very Good
+29,Price=Negative,EPS=Grade C,DE=Very Risky,CR=Low
+30,Price=Positive,EPS=Grade B,DE=Very Risky,CR=Low
+31,Price=Positive,EPS=Grade B,DE=Very Risky,CR=Low
+32,Price=Negative,EPS=Grade D,DE=Very Risky,CR=Acceptable
+33,Price=Positive,EPS=Grade D,DE=Very Risky,CR=Low
+34,Price=Negative,EPS=Grade D,DE=Very Risky,CR=Low
+35,Price=Negative,EPS=Grade D,DE=Very Risky,CR=Low
+36,Price=Very Positive,EPS=Grade C,DE=Very Risky,CR=Low
+37,Price=Extremely Positive,EPS=Grade C,DE=Very Risky,CR=Low
+38,Price=Positive,EPS=Grade C,DE=Very Risky,CR=Low
+39,Price=Very Negative,EPS=Grade C,DE=Very Risky,CR=Low
+40,Price=Positive,EPS=Grade C,DE=Very Risky,CR=Low
+41,Price=Very Negative,EPS=Grade D,DE=Very Risky,CR=Acceptable
+42,Price=Very Negative,EPS=Grade C,DE=Very Risky,CR=Acceptable
+43,Price=Very Positive,EPS=Grade C,DE=Very Risky,CR=Acceptable
+44,Price=Very Positive,EPS=Grade A,DE=Very Risky,CR=Low
+45,Price=Very Negative,EPS=Grade A,DE=Very Risky,CR=Low
+46,Price=Very Positive,EPS=Grade A,DE=Very Risky,CR=Low
