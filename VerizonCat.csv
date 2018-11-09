@@ -1,47 +1,47 @@
-,PriceChange,PE Ratio,EPS,DebtToEquity,CurrentRatio,QuickRatio
-1,Price=Positive,PE=Value,EPS=Grade C,DE=Low Risk,CR=Acceptable,QR=High Risk
-2,Price=Very Positive,PE=Value,EPS=Grade C,DE=Low Risk,CR=Acceptable,QR=High Risk
-3,Price=Very Positive,PE=Balanced,EPS=Grade D,DE=Low Risk,CR=Acceptable,QR=High Risk
-4,Price=Negative,PE=Balanced,EPS=Grade D,DE=Low Risk,CR=Acceptable,QR=Moderate Risk
-5,Price=Extremely Negative,PE=Value,EPS=Grade D,DE=Moderate Risk,CR=Good,QR=Moderate Risk
-6,Price=Negative,PE=Value,EPS=Grade C,DE=Moderate Risk,CR=Low,QR=High Risk
-7,Price=Very Negative,PE=High Value,EPS=Grade C,DE=Moderate Risk,CR=Acceptable,QR=High Risk
-8,Price=Very Positive,PE=High Value,EPS=Grade C,DE=Low Risk,CR=Very Good,QR=Low Risk
-9,Price=Very Negative,PE=High Value,EPS=Grade C,DE=Moderate Risk,CR=Acceptable,QR=High Risk
-10,Price=Positive,PE=High Value,EPS=Grade C,DE=Moderate Risk,CR=Good,QR=Moderate Risk
-11,Price=Positive,PE=Value,EPS=Grade D,DE=Moderate Risk,CR=Good,QR=Moderate Risk
-12,Price=Very Positive,PE=Growth,EPS=Grade D,DE=Moderate Risk,CR=Acceptable,QR=Moderate Risk
-13,Price=Negative,PE=Growth,EPS=Grade E,DE=Moderate Risk,CR=Acceptable,QR=Moderate Risk
-14,Price=Very Negative,PE=High Growth,EPS=Grade E,DE=Low Risk,CR=Acceptable,QR=High Risk
-15,Price=Extremely Positive,PE=High Growth,EPS=Grade E,DE=Low Risk,CR=Acceptable,QR=Moderate Risk
-16,Price=Very Positive,PE=Growth,EPS=Grade D,DE=Low Risk,CR=Acceptable,QR=Moderate Risk
-17,Price=Very Positive,PE=Growth,EPS=Grade D,DE=Low Risk,CR=Good,QR=Moderate Risk
-18,Price=Negative,PE=Balanced,EPS=Grade C,DE=Low Risk,CR=Good,QR=Moderate Risk
-19,Price=Positive,PE=Value,EPS=Grade B,DE=Low Risk,CR=Acceptable,QR=Moderate Risk
-20,Price=Very Positive,PE=High Growth,EPS=Grade E,DE=Low Risk,CR=Very Good,QR=Low Risk
-21,Price=Negative,PE=Growth,EPS=Grade E,DE=Low Risk,CR=Very Good,QR=Low Risk
-22,Price=Extremely Positive,PE=High Growth,EPS=Grade D,DE=Low Risk,CR=Very Good,QR=Low Risk
-23,Price=Positive,PE=High Growth,EPS=Grade D,DE=Low Risk,CR=Good,QR=Low Risk
-24,Price=Negative,PE=High Growth,EPS=Grade E,DE=Low Risk,CR=Acceptable,QR=Moderate Risk
-25,Price=Extremely Positive,PE=High Growth,EPS=Grade E,DE=Low Risk,CR=Acceptable,QR=Moderate Risk
-26,Price=Positive,PE=High Growth,EPS=Grade E,DE=Low Risk,CR=Acceptable,QR=Moderate Risk
-27,Price=Very Negative,PE=High Growth,EPS=Grade E,DE=Moderate Risk,CR=Very Good,QR=Low Risk
-28,Price=Very Positive,PE=Value,EPS=Grade A,DE=Moderate Risk,CR=Very Good,QR=Low Risk
-29,Price=Negative,PE=High Value,EPS=Grade A,DE=Very High Risk,CR=Good,QR=Moderate Risk
-30,Price=Positive,PE=High Value,EPS=Grade A,DE=Very High Risk,CR=Good,QR=Moderate Risk
-31,Price=Positive,PE=High Value,EPS=Grade A,DE=Very High Risk,CR=Good,QR=Moderate Risk
-32,Price=Negative,PE=Growth,EPS=Grade B,DE=Very High Risk,CR=Very Good,QR=Low Risk
-33,Price=Positive,PE=Growth,EPS=Grade B,DE=Very High Risk,CR=Acceptable,QR=Moderate Risk
-34,Price=Negative,PE=Growth,EPS=Grade B,DE=Very High Risk,CR=Acceptable,QR=Moderate Risk
-35,Price=Negative,PE=Balanced,EPS=Grade B,DE=Very High Risk,CR=Acceptable,QR=High Risk
-36,Price=Very Positive,PE=Value,EPS=Grade A,DE=Very High Risk,CR=Acceptable,QR=High Risk
-37,Price=Extremely Positive,PE=Balanced,EPS=Grade A,DE=Very High Risk,CR=Acceptable,QR=Moderate Risk
-38,Price=Positive,PE=Balanced,EPS=Grade B,DE=Higher Risk,CR=Acceptable,QR=High Risk
-39,Price=Very Negative,PE=Balanced,EPS=Grade B,DE=Higher Risk,CR=Good,QR=Moderate Risk
-40,Price=Positive,PE=Growth,EPS=Grade B,DE=Higher Risk,CR=Good,QR=Moderate Risk
-41,Price=Very Negative,PE=Growth,EPS=Grade B,DE=Higher Risk,CR=Very Good,QR=Low Risk
-42,Price=Very Negative,PE=Balanced,EPS=Grade B,DE=Higher Risk,CR=Very Good,QR=Low Risk
-43,Price=Very Positive,PE=Balanced,EPS=Grade B,DE=Higher Risk,CR=Very Good,QR=Low Risk
-44,Price=Very Positive,PE=High Value,EPS=Grade A,DE=Higher Risk,CR=Good,QR=Moderate Risk
-45,Price=Very Negative,PE=High Value,EPS=Grade A,DE=Higher Risk,CR=Good,QR=Low Risk
-46,Price=Very Positive,PE=High Value,EPS=Grade A,DE=Higher Risk,CR=Good,QR=Low Risk
+,PriceChange,PE Ratio,DebtToEquity,CurrentRatio,QuickRatio
+1,Price=Positive,PE=Value,DE=Low Risk,CR=Acceptable,QR=High Risk
+2,Price=Very Positive,PE=Value,DE=Low Risk,CR=Acceptable,QR=High Risk
+3,Price=Very Positive,PE=Balanced,DE=Low Risk,CR=Acceptable,QR=High Risk
+4,Price=Negative,PE=Balanced,DE=Low Risk,CR=Acceptable,QR=Moderate Risk
+5,Price=Extremely Negative,PE=Value,DE=Moderate Risk,CR=Good,QR=Moderate Risk
+6,Price=Negative,PE=Value,DE=Moderate Risk,CR=Low,QR=High Risk
+7,Price=Very Negative,PE=High Value,DE=Moderate Risk,CR=Acceptable,QR=High Risk
+8,Price=Very Positive,PE=High Value,DE=Low Risk,CR=Very Good,QR=Low Risk
+9,Price=Very Negative,PE=High Value,DE=Moderate Risk,CR=Acceptable,QR=High Risk
+10,Price=Positive,PE=High Value,DE=Moderate Risk,CR=Good,QR=Moderate Risk
+11,Price=Positive,PE=Value,DE=Moderate Risk,CR=Good,QR=Moderate Risk
+12,Price=Very Positive,PE=Growth,DE=Moderate Risk,CR=Acceptable,QR=Moderate Risk
+13,Price=Negative,PE=Growth,DE=Moderate Risk,CR=Acceptable,QR=Moderate Risk
+14,Price=Very Negative,PE=High Growth,DE=Low Risk,CR=Acceptable,QR=High Risk
+15,Price=Extremely Positive,PE=High Growth,DE=Low Risk,CR=Acceptable,QR=Moderate Risk
+16,Price=Very Positive,PE=Growth,DE=Low Risk,CR=Acceptable,QR=Moderate Risk
+17,Price=Very Positive,PE=Growth,DE=Low Risk,CR=Good,QR=Moderate Risk
+18,Price=Negative,PE=Balanced,DE=Low Risk,CR=Good,QR=Moderate Risk
+19,Price=Positive,PE=Value,DE=Low Risk,CR=Acceptable,QR=Moderate Risk
+20,Price=Very Positive,PE=High Growth,DE=Low Risk,CR=Very Good,QR=Low Risk
+21,Price=Negative,PE=Growth,DE=Low Risk,CR=Very Good,QR=Low Risk
+22,Price=Extremely Positive,PE=High Growth,DE=Low Risk,CR=Very Good,QR=Low Risk
+23,Price=Positive,PE=High Growth,DE=Low Risk,CR=Good,QR=Low Risk
+24,Price=Negative,PE=High Growth,DE=Low Risk,CR=Acceptable,QR=Moderate Risk
+25,Price=Extremely Positive,PE=High Growth,DE=Low Risk,CR=Acceptable,QR=Moderate Risk
+26,Price=Positive,PE=High Growth,DE=Low Risk,CR=Acceptable,QR=Moderate Risk
+27,Price=Very Negative,PE=High Growth,DE=Moderate Risk,CR=Very Good,QR=Low Risk
+28,Price=Very Positive,PE=Value,DE=Moderate Risk,CR=Very Good,QR=Low Risk
+29,Price=Negative,PE=High Value,DE=Very High Risk,CR=Good,QR=Moderate Risk
+30,Price=Positive,PE=High Value,DE=Very High Risk,CR=Good,QR=Moderate Risk
+31,Price=Positive,PE=High Value,DE=Very High Risk,CR=Good,QR=Moderate Risk
+32,Price=Negative,PE=Growth,DE=Very High Risk,CR=Very Good,QR=Low Risk
+33,Price=Positive,PE=Growth,DE=Very High Risk,CR=Acceptable,QR=Moderate Risk
+34,Price=Negative,PE=Growth,DE=Very High Risk,CR=Acceptable,QR=Moderate Risk
+35,Price=Negative,PE=Balanced,DE=Very High Risk,CR=Acceptable,QR=High Risk
+36,Price=Very Positive,PE=Value,DE=Very High Risk,CR=Acceptable,QR=High Risk
+37,Price=Extremely Positive,PE=Balanced,DE=Very High Risk,CR=Acceptable,QR=Moderate Risk
+38,Price=Positive,PE=Balanced,DE=Higher Risk,CR=Acceptable,QR=High Risk
+39,Price=Very Negative,PE=Balanced,DE=Higher Risk,CR=Good,QR=Moderate Risk
+40,Price=Positive,PE=Growth,DE=Higher Risk,CR=Good,QR=Moderate Risk
+41,Price=Very Negative,PE=Growth,DE=Higher Risk,CR=Very Good,QR=Low Risk
+42,Price=Very Negative,PE=Balanced,DE=Higher Risk,CR=Very Good,QR=Low Risk
+43,Price=Very Positive,PE=Balanced,DE=Higher Risk,CR=Very Good,QR=Low Risk
+44,Price=Very Positive,PE=High Value,DE=Higher Risk,CR=Good,QR=Moderate Risk
+45,Price=Very Negative,PE=High Value,DE=Higher Risk,CR=Good,QR=Low Risk
+46,Price=Very Positive,PE=High Value,DE=Higher Risk,CR=Good,QR=Low Risk
