@@ -117,6 +117,38 @@ p4M<- fviz_cluster(fitMed4, data= data[3:7],geom="point",pointsize=.6,main="k=10
 grid.arrange(p1M,p2M,p3M,p4M, nrow=2)
 
 #-----------------------------------------------------------------------------------------------
+# CLARA Clustering by multiple factors
+fitC1 <- clara(data[3:7],3, metric="euclidean", samples=5) 
+fitC1  # view results
+
+fitC2 <- clara(data[3:7],3, metric="manhattan", samples=5)
+fitC2
+
+fitC3 <- clara(data[3:7],5, metric="manhattan",samples=5)
+fitC3
+
+fitC4 <- clara(data[3:7],10,metric="manhattan",samples=5)
+fitC4
+
+# Create table to measure how well clusters performed
+# Test all ETFs find best performer
+IYZ_table_C <- table(data$IYZ_Perf,fitC1$cluster)
+IYZ_table_C
+# CCompare with Manhattan Distance
+IYZ_table_C2 <- table(data$IYZ_Perf,fitC2$cluster)
+IYZ_table_C2
+
+# Display Cluster Plot
+p1C<- fviz_cluster(fitC1, data= data[3:7],geom="point",pointsize=.6,main="Clara sampling: Euclidean")
+p2C<- fviz_cluster(fitC2, data= data[3:7],geom="point",pointsize=.6,main="Clara Sampling: Manhattan")
+p3C<- fviz_cluster(fitC3, data= data[3:7],geom="point",pointsize=.6,main="k=5 Clara Sampling")
+p4C<- fviz_cluster(fitC4, data= data[3:7],geom="point",pointsize=.6,main="k=10 Clara Sampling")
+
+grid.arrange(p1C,p2C,p3C,p4C, nrow=2)
+
+
+
+#-----------------------------------------------------------------------------------------
 # Another package
 #wssplot(data2) Not working
 nc <- NbClust(data[3:12],min.nc=2,max.nc=15,method="kmeans")
